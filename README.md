@@ -20,3 +20,13 @@ exited with :wq (w for write to file, q for quit)
 ## April 10th
 When opening a terminal in the gui the .profile is not read. .bashrc is read instead.
 In visual studio, a white dot means there are unsaved portions of the file
+
+## April 17th
+learning git
+To include a message use git commit -m "message"
+To set a username git commit user.name "TheName" (add --global to set it globally)
+To set an email git commit user.email "asdf@email.com" (also can be global)
+git status shows the status of the files to be committed
+git add filename.filetype will add a file to be committed
+git log displays the history of a file or the git repo
+
