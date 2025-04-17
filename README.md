@@ -32,4 +32,6 @@ git log displays the history of a file or the git repo
 git branch displays the current branch
 get checkout -b branchname is a cmd to make a new branch (git branch can do it, but won't move you there)
 git checkout moves to a new branch, -b allows it to make a new branch if it doesn't exist
-
+git merge branchname will merge it back into master (this should be run from the branch you want to merge into. Thus run it while in master.)
+git tag -a name -m (-a adds, -m adds a message)
+git tag -n will display the tag messages. -n#, where # is a number will show # lines of the message.
