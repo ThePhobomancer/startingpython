@@ -29,4 +29,7 @@ To set an email git commit user.email "asdf@email.com" (also can be global)
 git status shows the status of the files to be committed
 git add filename.filetype will add a file to be committed
 git log displays the history of a file or the git repo
+git branch displays the current branch
+get checkout -b branchname is a cmd to make a new branch (git branch can do it, but won't move you there)
+git checkout moves to a new branch, -b allows it to make a new branch if it doesn't exist
 
