@@ -1,5 +1,10 @@
 
 #!/usr/bin/env python
 x = 0
-for x < 10 (print (x), x++)
+while x < 10:
+    print (x)
+    x += 1
+
+for i in range(0,10):
+    print (i)
 
