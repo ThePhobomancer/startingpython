@@ -35,3 +35,6 @@ git checkout moves to a new branch, -b allows it to make a new branch if it does
 git merge branchname will merge it back into master (this should be run from the branch you want to merge into. Thus run it while in master.)
 git tag -a name -m (-a adds, -m adds a message)
 git tag -n will display the tag messages. -n#, where # is a number will show # lines of the message.
+
+## April 20th an 21st
+I have begun creating small programs for practice with reading files and selecting random elements.
