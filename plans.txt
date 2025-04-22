@@ -11,10 +11,10 @@ Mini-projects and pieces to create and test on the experimental branch
     ogre
     monster
 2. random stat roller
-    human
-    dwarf
-    elf
-    halfling
+    ## human
+    ## dwarf
+    ## elf
+    ## halfling
     gnome
     ogre
 3. random class and career selector
