@@ -36,5 +36,21 @@ git merge branchname will merge it back into master (this should be run from the
 git tag -a name -m (-a adds, -m adds a message)
 git tag -n will display the tag messages. -n#, where # is a number will show # lines of the message.
 
-## April 20th an 21st
+## April 20th and 21st
 I have begun creating small programs for practice with reading files and selecting random elements.
+
+## April 24th
+I have been creating a number of small projects.
+Dependencies are pieces of code that other people have written that provide utility or reduce reinventing the wheel.
+python uv
+python dependencies are managed by tools like 'pip' or 'python uv'
+uv also handles python versions
+uv init . (Tells uv to initialize a new project in the current folder [. is current folder])
+uv init name allows it to create a new project folder with all the files needed. When we have a project, it will not do this.
+This sets up a pyproject.toml file which tracks project configuations and makes transfering between computers much easier.
+It also tracks which dependencies you need.
+uv add allows adding a dependency to the project. This adds it to a virtual environment, instead of it's site packages that are global.
+venv files create essentially a full copy of python.
+uv.lock controls the version of a dependency. It prevents tampering with dependencies.
+Do not git .venv (it is of no use to you or others). The point of pyproject.toml is to allow recreating a venv
+gitignore will ignore each file name in a new line
