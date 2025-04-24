@@ -12,6 +12,7 @@ We created a project directory and a sub directory with mkdir
 Then made main.py file using touch
 We checked permissions with ll (alias of ls -l)
 Then we changed permissions to allow (+) the user(u) to execute(x) (chmod u+x)
+    chmod u+x file.name
 Entering the file with vim ./main.py
 creating a shebang command (#!) then listing the directory path (/usr/bin/env) and file to use as the executable (python). This allows the system to search for the python executable whereever it is.
 Wrote hello world (print("hello world")
@@ -56,4 +57,12 @@ Do not git .venv (it is of no use to you or others). The point of pyproject.toml
 gitignore will ignore each file name in a new line
 
 VSCode has a git interface
-Anything under
+Anything under "changes" is not being committed
+
+ACTIVATING A VIRTUAL ENVIRONMENT IS CRITICAL
+source .venv/bin/activate
+When activated properly it will add (foldername) at the start of the terminal path
+
+When running a program and an error occurs, we get red or purple text.
+
+git add -A adds all files in folder
