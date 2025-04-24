@@ -54,3 +54,6 @@ venv files create essentially a full copy of python.
 uv.lock controls the version of a dependency. It prevents tampering with dependencies.
 Do not git .venv (it is of no use to you or others). The point of pyproject.toml is to allow recreating a venv
 gitignore will ignore each file name in a new line
+
+VSCode has a git interface
+Anything under
