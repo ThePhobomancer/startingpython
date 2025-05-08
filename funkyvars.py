@@ -56,3 +56,5 @@ def add(a,b):
 print(add( 3, 5))
 #this function still has the same behavior of the '+' opperator
 print(add( "Not ", "a number"))
+
+# Homework: Define a function subtract. Call it with the inputs 10 and 7, and print the output.
