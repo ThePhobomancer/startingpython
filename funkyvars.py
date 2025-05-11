@@ -58,3 +58,6 @@ print(add( 3, 5))
 print(add( "Not ", "a number"))
 
 # Homework: Define a function subtract. Call it with the inputs 10 and 7, and print the output.
+def subtract(a,b):
+    return a-b
+print(subtract(7,10))
